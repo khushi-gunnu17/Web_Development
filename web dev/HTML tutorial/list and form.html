@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>my list table and form</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <ul>
+            <li>Apple</li>
+            <ul>
+                <li>color : red</li>
+                <li>season : winters</li>
+            </ul>
+            <li>mango</li>
+            <ul>
+                <li>color : yellow</li>
+                <li>season : summer</li>
+            </ul>
+            <li>banana</li>
+        </ul> 
+
+        <ol>
+            <li>Apple</li>
+            <ul>
+                <li>color : red</li>
+                <li>season : winters</li>
+            </ul>
+            <li>mango</li>
+            <ul>
+                <li>color : yellow</li>
+                <li>season : summer</li>
+            </ul>
+            <li>banana</li>
+        </ol>
+
+
+        <table >
+            <thead>
+            <caption>student data</caption>
+            <tr>
+                <th colspan="2">
+                    Infoemation
+                </th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>khushi</td>
+                <td>510</td>
+            </tr>
+            <tr>
+                <td>mayank</td>
+                <td>511</td>
+            </tr>
+            <tr>
+                <td>manav</td>
+                <td>512</td>
+            </tr>
+            </tbody>
+        </table>
+        <h1>Registration Form</h1>
+        <form action="/action.php">
+            <label for="id1">
+            <input type="text" placeholder="username" id="id1">
+            </label> <br>
+            <input type="password" placeholder="password">
+            <br><br>
+
+            <h4>Select your class </h4>
+            <label for="101">
+            <input type="radio" value="class XI" name="class" id="101">class XI
+            </label>
+            <br>
+            <label for="102">
+            <input type="radio" value="class XII" name="class" id="102">class XII
+            </label>
+            <br><br>
+
+            <h5>Select favourite subjects</h5>
+            <label for="maths">
+                <input type="checkbox" value="maths" name="subject" id="101">Maths
+            </label><br>
+
+            <label for="english">
+                <input type="checkbox" value="english" name="subject" id="102">English
+            </label><br>
+
+            <label for="hindi">
+                <input type="checkbox" value="hindi" name="subject" id="103">Hindi
+            </label><br>
+
+            <label for="science">
+                <input type="checkbox" value="science" name="subject" id="104">Science
+            </label>
+            <br><br>
+            Select Your City = 
+            <select name="city" id="city">
+                <option value="delhi">Delhi</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="jaipur">Jaipur</option>
+                <option value="bangalore">bangalore</option>
+                <option value="jodhpur">jodhpur</option>
+            </select>
+            <br><br>
+            <textarea name="feedback" id="107" placeholder="give your text" rows="5" cols="10">
+                feedback
+            </textarea><br><br>
+            <input type="submit" value="submit">
+        </form>
+        <br><br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1g3kYtJf6Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
+
+        <iframe src="https://www.wikipedia.org/" height="500" width="500"> -->
+
+        <!-- this is now a video -->
+
+        <video width="560" height="315" controls loop autoplay src="https://www.youtube.com/embed/1g3kYtJf6Tw">khush's video</video>
+    </main>
+    <footer></footer>
+</body>
+</html>

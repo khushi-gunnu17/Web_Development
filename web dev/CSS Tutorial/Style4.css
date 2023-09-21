@@ -1,0 +1,54 @@
+.ContentBox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+}
+
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 175px;
+    text-decoration: none;
+}
+
+#one {
+    background-color: rgba(255,0,0,0.5);
+}
+
+#two {
+    background-color: rgba(0,255,0,0.5);
+}
+
+#three {
+    background-color: rgba(0,0,255,0.5);
+}
+
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+
+#content {
+    height: 480px;
+}

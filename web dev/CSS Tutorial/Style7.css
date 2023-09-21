@@ -1,0 +1,37 @@
+.Navbar {
+    background-color: pink;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+#outer {
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+}

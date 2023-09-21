@@ -1,0 +1,24 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    background-image: url("cat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#love {
+    height: 200px;
+    width: 200px;
+    background-image: url(fox.jpg);
+    background-size: cover;
+    position: fixed;
+    right: 10px;
+    top: 50px;
+}
+ 
